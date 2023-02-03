@@ -12,13 +12,12 @@ import './Root.modules.css';
 const Root = () => {
 	return (
 		<>
-			
 			{/* Top Header Section */}
 			<section className='top-header'>
 				<TopHeader />
 			</section>
 			{/* Navbar Section */}
-			<section className='navbar-section'>
+			<section className='navbar-section  sticky top-0 z-20'>
 				<Navbar />
 			</section>
 			{/* Schedule Call Section */}

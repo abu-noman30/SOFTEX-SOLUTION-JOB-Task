@@ -10,7 +10,7 @@ const Navbar = () => {
 	return (
 		<>
 			{/* Navbar Section */}
-			<section className='navbar-section bg-white drop-shadow-xl shadow-gray-300'>
+			<section className='navbar-section bg-white drop-shadow-xl shadow-gray-300 '>
 				<div className=''>
 					<nav className='bg-white border-gray-200'>
 						<div className='flex flex-wrap justify-between items-center w-10/12 mx-auto py-2.5'>
@@ -20,7 +20,7 @@ const Navbar = () => {
 							<button
 								data-collapse-toggle='mega-menu-full'
 								type='button'
-								className='inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg xl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200'
+								className='inline-flex items-center p-2 ml-1 text-sm text-gray-50 rounded-lg xl:hidden bg-[#4842a8] hover:bg-[#4842a8] focus:outline-none focus:ring-2 focus:ring-gray-200'
 								aria-controls='mega-menu-full'
 								aria-expanded='false'
 								onClick={() => setSidebar(!sidebar)}
@@ -126,26 +126,86 @@ const Navbar = () => {
 						</div>
 						{/* Company - Dropdown Menu */}
 						{isCompanyShown && (
-							<div id='dropdownHelperButton' className='z-50 mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y '>
-								<div className='grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900  sm:grid-cols-2 md:px-6'>{/* Grid Container */}</div>
+							<div id='mega-menu-full-dropdown' className='mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y '>
+								<div className='grid grid-cols-4 w-full mx-auto text-gray-900'>
+									{/* Grid Container */}
+
+									<div className='w-full p-4 h-24 border '>
+										<h1 className='bg-gray-300 flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+								</div>
 							</div>
 						)}
 						{/* Company - Dropdown Menu */}
 						{isServiceShown && (
 							<div id='mega-menu-full-dropdown' className='mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y '>
-								<div className='grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900  sm:grid-cols-2 md:px-6'>{/* Grid Container */}</div>
+								<div className='grid grid-cols-4 w-full mx-auto text-gray-900'>
+									{/* Grid Container */}
+
+									<div className='w-full p-4 h-24 border '>
+										<h1 className='bg-gray-300 flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+								</div>
 							</div>
 						)}
 						{/* Company - Dropdown Menu */}
 						{isDeveloperShown && (
 							<div id='mega-menu-full-dropdown' className='mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y '>
-								<div className='grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900  sm:grid-cols-2 md:px-6'>{/* Grid Container */}</div>
+								<div className='grid grid-cols-4 w-full mx-auto text-gray-900'>
+									{/* Grid Container */}
+
+									<div className='w-full p-4 h-24 border '>
+										<h1 className='bg-gray-300 flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+								</div>
 							</div>
 						)}
 						{/* Company - Dropdown Menu */}
 						{isResourceShown && (
 							<div id='mega-menu-full-dropdown' className='mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y '>
-								<div className='grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900  sm:grid-cols-2 md:px-6'>{/* Grid Container */}</div>
+								<div className='grid grid-cols-4 w-full mx-auto text-gray-900'>
+									{/* Grid Container */}
+
+									<div className='w-full p-4 h-24 border '>
+										<h1 className='bg-gray-300 flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+									<div className='w-full p-4 h-24  border '>
+										<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+									</div>
+								</div>
 							</div>
 						)}
 					</nav>
@@ -154,11 +214,30 @@ const Navbar = () => {
 				{sidebar && (
 					<aside
 						id='logo-sidebar'
-						class={`fixed top-[4.4rem] left-0 z-40 w-64 h-screen pt-20 transition-transform translate-x-0 ${
+						className={`fixed top-[4.4rem] left-0 z-40 w-64 h-screen transition-transform translate-x-0 ${
 							sidebar ? 'xl:-translate-x-full' : ''
 						} bg-white border-r border-gray-200  dark:bg-gray-800 dark:border-gray-700`}
 						aria-label='Sidebar'
-					></aside>
+					>
+						<div id='mega-menu-full-dropdown' className='mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y '>
+							<div className='grid grid-cols-1 w-full mx-auto text-gray-900'>
+								{/* Grid Container */}
+
+								<div className='w-full p-4 h-24 border '>
+									<h1 className='bg-gray-300 flex items-center justify-center h-full'>Menu Items</h1>
+								</div>
+								<div className='w-full p-4 h-24  border '>
+									<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+								</div>
+								<div className='w-full p-4 h-24  border '>
+									<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+								</div>
+								<div className='w-full p-4 h-24  border '>
+									<h1 className='bg-gray-300  flex items-center justify-center h-full'>Menu Items</h1>
+								</div>
+							</div>
+						</div>
+					</aside>
 				)}
 			</section>
 		</>
