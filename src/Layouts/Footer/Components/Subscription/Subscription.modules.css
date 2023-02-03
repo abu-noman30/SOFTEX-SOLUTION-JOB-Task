@@ -1,0 +1,15 @@
+.service::before {
+  -webkit-text-stroke: 1px;
+  position: absolute;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+  z-index: 0;
+}
+#help::before {
+  content: 'Help';
+}
+
+#subscribe::before {
+  content: 'Subscribe';
+}
+

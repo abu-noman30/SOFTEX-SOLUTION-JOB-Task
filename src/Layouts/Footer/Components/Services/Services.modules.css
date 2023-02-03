@@ -1,0 +1,42 @@
+.service::before {
+  -webkit-text-stroke: 1px;
+  position: absolute;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+  z-index: 0;
+}
+#about::before {
+  content: 'About';
+}
+
+#mobile::before {
+  content: 'Mobile';
+}
+
+#web::before {
+  content: 'Web';
+}
+
+#ecommerce::before {
+  content: 'Ecommerce';
+}
+
+#ai-ml::before {
+  content: 'AI';
+}
+
+#iot-embedded::before {
+  content: 'IoT';
+}
+
+#blockchain::before {
+  content: 'Blockchain';
+}
+
+#game::before {
+  content: 'Game';
+}
+
+#salesforce::before {
+  content: 'Salesforce';
+}

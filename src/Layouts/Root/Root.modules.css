@@ -1,0 +1,22 @@
+#content-box::before{
+  content: '';
+  position: absolute;
+  background-image: url(../../Assets/Images/asset\ 35.png);
+  top: 0;
+  left: 0;
+  width: 97px;
+  height: 130px;
+  z-index: 0;
+}
+
+#content-box::after{
+  content: '';
+  position: absolute;
+  background-image: url(../../Assets/Images/asset\ 36.png);
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  height: 260px;
+  z-index: 0;
+
+}
