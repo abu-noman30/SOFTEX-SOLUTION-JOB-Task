@@ -2,12 +2,12 @@ import React from 'react';
 import whatsAppIcon from '../../Assets/Images/asset 21.png';
 
 const WhatsApp = () => {
-	return (
-		<>
-			{/* Speed Dial WhatsApp Container */}
-			<div className='whats-app-container'>
-				<div data-dial-init className='fixed bottom-6 left-6 group'>
-					{/* <div id='speed-dial-menu-bottom-left' className='flex flex-col items-center hidden mb-4 space-y-2'>
+  return (
+    <>
+      {/* Speed Dial WhatsApp Container */}
+      <div className='whats-app-container'>
+        <div data-dial-init className='fixed bottom-6 left-6 group'>
+          {/* <div id='speed-dial-menu-bottom-left' className='flex flex-col items-center hidden mb-4 space-y-2'>
 						<button
 							type='button'
 							data-tooltip-target='tooltip-share'
@@ -94,14 +94,14 @@ const WhatsApp = () => {
 							<div className='tooltip-arrow' data-popper-arrow></div>
 						</div>
 					</div> */}
-					<button type='button' className='flex items-center justify-center text-white bg-[#4dc247] rounded-full w-14 h-14 '>
-						<img src={whatsAppIcon} alt='' className='w-8' />
-						<span className='sr-only'>Open actions menu</span>
-					</button>
-				</div>
-			</div>
-		</>
-	);
+          <button type='button' className='flex items-center justify-center text-white bg-[#4dc247] rounded-full w-14 h-14 '>
+            <img src={whatsAppIcon} alt='' className='w-8' />
+            <span className='sr-only'>Open actions menu</span>
+          </button>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default WhatsApp;
