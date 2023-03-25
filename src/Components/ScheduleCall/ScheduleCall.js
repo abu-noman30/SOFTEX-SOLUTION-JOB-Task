@@ -25,13 +25,12 @@ const ScheduleCall = () => {
               </div>
               {/* Right Container */}
               <div className='overflow-auto flex flex-col '>
-                {/* Calender */}
                 <div className=''>
+                  {/* Calender */}
                   {!selected && <Calender props={props} />}
+                  {/* Schedule Event Form */}
                   {selected && <ScheduleEventForm props={props} />}
                 </div>
-
-                {/* Schedule Event Form */}
               </div>
             </div>
           </div>

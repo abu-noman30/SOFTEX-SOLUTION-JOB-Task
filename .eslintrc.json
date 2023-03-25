@@ -1,38 +1,33 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["react-app"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "ecmaVersion": 2020
     },
-    "extends": [
-        "react-app"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true,
-            "ecmaVersion": 2020
-        },
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "prettier"
-    ],
-    "rules": {
-        "jsx-a11y/anchor-is-valid": 0,
-        "prettier/prettier": [
-            "error",
-            {
-                "printWidth": 180,
-                "trailingComma": "none",
-                "jsxSingleQuote": true,
-                "singleQuote": true,
-                "useTabs": false,
-                "bracketSpacing": true,
-                "jsxBracketSameLine": false,
-                "arrowParens": "always",
-                "requirePragma": false
-                // "endOfLine": "lf"
-            }
-        ]
-    }
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 180,
+        "trailingComma": "none",
+        "jsxSingleQuote": true,
+        "singleQuote": true,
+        "useTabs": false,
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "arrowParens": "always",
+        "requirePragma": false,
+        "endOfLine": "lf"
+      }
+    ]
+  }
 }
